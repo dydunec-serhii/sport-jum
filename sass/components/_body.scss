@@ -1,1 +1,10 @@
-// БОДІ
+.container{
+    width: 1400px;
+}
+@media (max-width:350px) {
+    .container{
+        width: 340px;
+        outline: rgb(255, 60, 0) 1px ridge;
+        background-color: beige;
+    }
+}
